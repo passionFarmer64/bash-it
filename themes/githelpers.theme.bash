@@ -9,7 +9,7 @@ function _git-symbolic-ref {
 # same commit. _git-branch is used to explicitly choose the checked-out
 # branch.
 function _git-branch {
- git symbolic-ref -q --short HEAD 2> /dev/null || return 1
+  git rev-parse --abbrev-ref HEAD 2> /dev/null || return 1
 }
 
 function _git-tag {
