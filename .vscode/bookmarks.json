@@ -1,0 +1,21 @@
+{
+	"onDidClearBookmarkEmitter": {},
+	"onDidClearAllBookmarksEmitter": {},
+	"onDidAddBookmarkEmitter": {},
+	"onDidRemoveBookmarkEmitter": {},
+	"onDidUpdateBookmarkEmitter": {},
+	"bookmarks": [
+		{
+			"fsPath": "$ROOTPATH$\\themes\\base.theme.bash",
+			"bookmarks": [
+				150
+			]
+		},
+		{
+			"fsPath": "$ROOTPATH$\\themes\\githelpers.theme.bash",
+			"bookmarks": [
+				10
+			]
+		}
+	]
+}
