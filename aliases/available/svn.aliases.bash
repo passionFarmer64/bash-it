@@ -2,7 +2,7 @@ cite 'about-alias'
 about-alias 'common svn abbreviations'
 
 # Aliases
-alias svs='svn status'
+alias st='svn status'
 alias sa='svn add'
 alias sci='svn ci -m'
 alias sco='svn co'

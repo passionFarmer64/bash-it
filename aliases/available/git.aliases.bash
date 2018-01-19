@@ -15,6 +15,8 @@ alias gus='git reset HEAD'
 alias gpristine='git reset --hard && git clean -dfx'
 alias gclean='git clean -fd'
 alias gm="git merge"
+alias gmnc="git merge --no-commit --no-ff" # merge branch, but not commit
+alias gmty="git mergetool -y" # tool of solving conflict, -y: can avoid the step of showing message
 alias gmv='git mv'
 alias g='git'
 alias get='git'
@@ -36,6 +38,7 @@ alias grv='git remote -v'
 alias gra='git remote add'
 alias gd='git diff'
 alias gdv='git diff -w "$@" | vim -R -'
+alias gdcl='git diff --name-only --diff-filter=U' # list conflicting file
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gcm='git commit -v -m'
