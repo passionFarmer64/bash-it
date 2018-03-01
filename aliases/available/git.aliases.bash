@@ -74,6 +74,7 @@ alias gtl="git tag -l"
 # From http://blogs.atlassian.com/2014/10/advanced-git-aliases/
 # Show commits since last pull
 alias gnew="git log HEAD@{1}..HEAD@{0}"
+alias glg='git log'
 # Add uncommitted and unstaged changes to the last commit
 alias gcaa="git commit -a --amend -C HEAD"
 alias ggui="git gui"
@@ -82,7 +83,7 @@ alias gstd="git stash drop"
 alias gstl="git stash list"
 alias gsts="git stash show -p" # show stash content
 alias gh='cd "$(git rev-parse --show-toplevel)"'
-
+alias gs='git show'
 case $OSTYPE in
   darwin*)
     alias gtls="git tag -l | gsort -V"
